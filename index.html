@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-display"><span id="select-hrs">00</span>:<span id="select-mins">00</span>:<span id="select-secs">00</span></div>
+
+    <div id="input-window">
+        <div id="main">
+            <div id="hours"><p>HOURS</p><ul class = 'list'></ul></div>
+            <div id="minutes"><p>MINUTES</p><ul class = 'list'></ul></div>
+            <div id="seconds"><p>SECONDS</p><ul class = 'list'></ul></div>
+        </div>
+        <div id="buttons">
+            <button id = "start-button">Start</button>
+        </div>
+    </div>
+    <div id="output-window">
+        <div id = "main-display"></div>
+        <div id = "buttons">
+            <div>
+                <button id = "pause-resume-button">Pause</button>
+                <button id = "reset-button">Reset</button>
+            </div>
+            <button id = "restart-button">Restart</button>
+        </div>
+    </div>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src = "app.js"></script>
+</body>
+</html>
